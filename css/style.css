@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: #f7c26f;
+
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url(../img/baggrund.jpg);
+  width: auto;
+  height: auto;
+  color: #f7c26f;
+
+}
+
+
+
+/* ------------HEADING---------- */
+
+.headingmain {
+
+  text-align: center;
+  color: #f7c26f;
+  background-image: url(../img/baggrund.jpg);
+  width: auto;
+  font-size: 60px;
+  padding: 35px;
+  text-shadow: 2px 2px black;
+}
+
+.forside-billede {
+  width: 750px;
+  height: auto;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 70%;
+}
+
+/* ---------------NAVBAR----------*/
+
+
+
+nav {
+  justify-content: center;
+  display: inline-flex;
+  text-align: center;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 25px;
+  z-index: 10;
+}
+
+li {
+  justify-content: center;
+  display: inline-flex;
+  text-align: center;
+}
+
+li a {
+  display: inline-block;
+  color: #f7c26f;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #333;
+}
+
+/* ---------------NEWSLETTER----------*/
+
+
+#news-baggrund{
+  background-image: url(../img/nyhedsbrev\ kopi.jpg);
+  position: relative;
+  top: 20px;
+}
+
+
+.container-news {
+  display: flex;
+  justify-content: center;
+  border: solid 2px #111111;
+  padding: 70px 40px;
+  text-align: center;
+  color: #f7c26f;
+  width: 80%;
+  position: relative;
+  left: 100px;
+}
+
+.container-news p {
+  max-width: 600px;
+  margin: 40px auto;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.email-box {
+  height: 40px;
+  justify-content: center;
+  display: flex;
+}
+
+.email-box i {
+  background: #2f3542;
+  width: 40px;
+  line-height: 40px;
+}
+
+.tbox-news,.btn-news {
+  border: none;
+  outline: none;
+}
+
+.tbox-news {
+  width: 0px;
+  transition: 0.6s;
+}
+
+.email-box:hover>.tbox-news,
+.tbox:focus {
+  width: 260px;
+  padding: 0 10px;
+}
+
+.btn-news {
+  background: #2f3542;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* -------------------------*/
+.maps {
+  padding: 30px;
+  text-align: center;
+}
+
+.maps-head {
+  padding: 30px;
+  text-decoration: underline;
+}
+
+/* ---------------FOOTER----------*/
+
